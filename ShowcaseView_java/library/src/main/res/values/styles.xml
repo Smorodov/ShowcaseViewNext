@@ -1,0 +1,51 @@
+<resources>
+
+    <style name="ShowcaseButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_15sdp</item>
+        <item name="android:paddingLeft">@dimen/_35sdp</item>
+        <item name="android:paddingRight">@dimen/_35sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+    </style>
+
+    <style name="ShowcaseView.Light">
+        <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
+        <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail.Light</item>
+        <item name="sv_backgroundColor">#3333B5E5</item>
+        <item name="sv_buttonText">@string/ok</item>
+    </style>
+
+
+    <style name="ShowcaseView">
+        <item name="sv_titleTextAppearance">@style/TextAppearance.ShowcaseView.Title</item>
+        <item name="sv_detailTextAppearance">@style/TextAppearance.ShowcaseView.Detail</item>
+        <item name="sv_backgroundColor">#aa33B5E5</item>
+        <item name="sv_buttonText">@string/ok</item>
+    </style>
+
+    <style name="TextAppearance.ShowcaseView.Title" parent="android:style/TextAppearance.Large">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">@dimen/_24sdp</item>
+    </style>
+
+    <style name="TextAppearance.ShowcaseView.Detail" parent="android:style/TextAppearance">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">@dimen/_18sdp</item>
+    </style>
+
+    <style name="TextAppearance.ShowcaseView.Detail.Light">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#FFffffff</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+    <style name="TextAppearance.ShowcaseView.Title.Light">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+</resources>

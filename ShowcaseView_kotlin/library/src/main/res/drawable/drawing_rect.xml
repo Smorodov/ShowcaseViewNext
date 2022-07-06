@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/solid">
+            <nine-patch android:src="@drawable/shadow_rect"/>
+        </item>
+
+    <item>
+        <shape
+            android:shape="rectangle" >
+            <solid
+                android:color="#00ffffff"
+                />
+<padding
+    android:left="50dp"
+    android:right="50dp"
+    android:top="50dp"
+    android:bottom="50dp"
+    />
+            <corners
+                android:radius="2dp"
+                />
+            <stroke
+                android:width="5dp"
+                android:color="#d1ffffff" />
+
+        </shape>
+    </item>
+
+
+
+
+
+
+</layer-list>
